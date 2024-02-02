@@ -10,5 +10,5 @@ class CampBenefit extends Model
     use HasFactory;
 
     //untuk defind field yg bisa di isi di table ini
-    protected $fillable = ['name'];
+    protected $fillable = ['camp_id','name'];
 }
